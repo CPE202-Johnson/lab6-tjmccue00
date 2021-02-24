@@ -4,7 +4,7 @@ PIVOT_FIRST = 0
 PIVOT_MIDDLE = 1
 PIVOT_MEDIAN_3 = 3
 
-pivot_method = PIVOT_MEDIAN_3
+pivot_method = 3
 
 total_count = 0
 
