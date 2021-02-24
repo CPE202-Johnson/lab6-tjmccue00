@@ -22,6 +22,7 @@ def insertion_sort(list):
     for i in range(1, len(list)):
         find = list[i]
         j = i-1
+        comp +=1
         while j >=0 and find < list[j]:
             comp += 1
             list[j+1] = list[j]
@@ -29,8 +30,12 @@ def insertion_sort(list):
         list[j+1] = find
     return comp
 
+n = [1,2,3,4,5,6,7,8,9]
+print(insertion_sort(n))
+
 
 def main():
+    pass
     # Code coverage NOT required for main
     # Give the random number generator a seed, so the same sequence of
     # random numbers is generated at each run
